@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
     boolean isWinner = false;
     int imageClicked = -1;
     int player = 1; //player1 is cross
-    int[][] winningStates = {{0, 1, 2}, {3, 4, 5}, {6, 7, 8}};
+    int[][] winningStates = {{0, 1,  2}, {3, 4, 5}, {6, 7, 8}};
     int[] gameStates = {-1, -1, -1, -1, -1, -1, -1, -1, -1};
 
     public void load(View view) {
